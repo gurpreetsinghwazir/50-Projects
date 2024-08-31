@@ -1,0 +1,32 @@
+*{
+ box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.numbers{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40%;
+    position: relative;
+    
+    /* max-width: fit-content; 2nd way to center a div
+    margin-left: auto;
+    margin-right: auto; */
+}
+.button{
+    /* text-align: center; */
+} 
+.num{
+    margin: 50px;
+    color: red;
+}
+.line{
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    height: 20px;
+    width: 50px;
+}
