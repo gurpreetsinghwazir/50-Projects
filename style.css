@@ -1,0 +1,29 @@
+body{
+    background-color: #6464ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.outer{
+    background-color: white;
+}
+
+.search{
+    padding: 10px;   
+    font-size: x-large;
+    border: 0;
+    outline : none;
+}
+
+
+.button{
+    font-size: x-large;
+    background-color: white;
+    border: 3px solid white;
+}
+
+.hide{
+display: none;
+}
