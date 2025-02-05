@@ -1,0 +1,47 @@
+body{
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+} 
+.panel{
+   
+    padding: 5px;
+    margin: 10px;
+	cursor: pointer;
+    border-radius: 30px;
+	width: 150px;
+    height: 600px;
+    	
+}
+.hello{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.active{
+	padding: 5px;
+    margin: 10px;
+	border-radius: 30px;
+    width: 900px;
+    height: 600px;	
+    transition: linear 0.5s;
+    
+   
+} 
+.panel h3{  
+    font-size: x-large;
+    color: white;
+    position: relative;
+    bottom: 90px;
+    left: 15px;
+    opacity:0;
+} 
+
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.2s ease-in 0.3s;   
+	animation-delay: 2s;	
+}
